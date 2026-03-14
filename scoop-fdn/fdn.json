@@ -1,0 +1,19 @@
+{
+    "version": "0.7.7",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hobbymarks/fdn/releases/download/v0.7.7/fdn_Windows_x86_64.zip",
+            "bin": [
+                "fdn.exe"
+            ],
+            "hash": "d0bcf7f09760288c5ef60992e725a31174879300cb68fd47ec4adc5b28ead7c6"
+        },
+        "arm64": {
+            "url": "https://github.com/hobbymarks/fdn/releases/download/v0.7.7/fdn_Windows_arm64.zip",
+            "bin": [
+                "fdn.exe"
+            ],
+            "hash": "c348016b6b0c19f36727beb3fb322bd821aa1d487ff3c9451d90a1c116ba344d"
+        }
+    }
+}
