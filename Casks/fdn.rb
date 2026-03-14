@@ -14,22 +14,22 @@ cask "fdn" do
   on_macos do
     on_intel do
       url "https://github.com/hobbymarks/fdn/releases/download/v#{version}/fdn_Darwin_x86_64.tar.gz"
-      sha256 "363b55ee48a07a1be6305a87a47a7ea2ed98dd8b531a358e8bacf94c8e42fb6b"
+      sha256 "e0c093d79186a9dd2a77faae67dfb9094aa987608eb9843e3543a3c9afad6463"
     end
     on_arm do
       url "https://github.com/hobbymarks/fdn/releases/download/v#{version}/fdn_Darwin_arm64.tar.gz"
-      sha256 "9f0685c5216534be025dbff3586cc75983ce9ed67778b3fceb0a84a2c4b282e1"
+      sha256 "f26c86724bec1306d6119c731193211afd08993572efba225ee0715e4838a525"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/hobbymarks/fdn/releases/download/v#{version}/fdn_Linux_x86_64.tar.gz"
-      sha256 "9cd027871bedc3fad1b0cec8b829426a70ac57ec16ea3d95ad5bf93c7b9d3165"
+      sha256 "03be0b6426d2f43b2715e3501e5234ab7885df9daa09783f434d21d6e723dcdf"
     end
     on_arm do
       url "https://github.com/hobbymarks/fdn/releases/download/v#{version}/fdn_Linux_arm64.tar.gz"
-      sha256 "514f9169132292dd3e9799a615070862a430a889669a236a57e4429704efaee4"
+      sha256 "c9ea6474041a06ca102d08b0406326753f8e1c7fce89c99cdfc46a2c54e9615e"
     end
   end
 
