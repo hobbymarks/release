@@ -3,7 +3,7 @@ cask "fdn" do
   name "fdn"
   desc ""
   homepage ""
-  version "0.7.8"
+  version "0.7.9"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "fdn" do
   on_macos do
     on_intel do
       url "https://github.com/hobbymarks/fdn/releases/download/v#{version}/fdn_Darwin_x86_64.tar.gz"
-      sha256 "1fb784ade30d2eb0f026cff6e53709bcbe6636de6354f5164a0927e6411fbcf1"
+      sha256 "cf61c435f4a28c6f02fd8ac3e81bb728c3960bd323465d217bdcf9953edcb6ff"
     end
     on_arm do
       url "https://github.com/hobbymarks/fdn/releases/download/v#{version}/fdn_Darwin_arm64.tar.gz"
-      sha256 "5339bcfd1847f7f5610580ba4b557f593d83f32f3cbfd33633db5bc619b33ad5"
+      sha256 "5d46cfa8e0c907904ca64b3508ceaed0565bbdbb33cd61730b84c672016abc9c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/hobbymarks/fdn/releases/download/v#{version}/fdn_Linux_x86_64.tar.gz"
-      sha256 "490a50c57ecaee224b869aec2b1f413b474a1b14e96481c5cd051b0f18c96e10"
+      sha256 "107b304fb32c43a9c3736565ecd8825ce4b55ca5b4c352b1ac45c28deb85e08b"
     end
     on_arm do
       url "https://github.com/hobbymarks/fdn/releases/download/v#{version}/fdn_Linux_arm64.tar.gz"
-      sha256 "57b02b34ea2b210d925cb9e5f10644ec7d722911a57a9bff986b16daf7bdb3d3"
+      sha256 "8db847357011876e532638866f9cbacd3cf898e85b8a6672ebc42f8aa298bd6f"
     end
   end
 
