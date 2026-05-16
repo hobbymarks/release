@@ -11,7 +11,7 @@ class Gtr < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/hobbymarks/gtr/releases/download/v0.1.3/gtr_0.1.3_darwin_amd64.tar.gz"
-      sha256 "f33f41c43ece72738c92342759e3f57861ba3c2e56a99fb54c6dcd2455662d54"
+      sha256 "3ea0ad0b8f739d71f6a05081d856684fa231dd6f56e40bf54203faf20ef6d6cb"
 
       define_method(:install) do
         bin.install "gtr"
@@ -19,7 +19,7 @@ class Gtr < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/hobbymarks/gtr/releases/download/v0.1.3/gtr_0.1.3_darwin_arm64.tar.gz"
-      sha256 "c7a178fe6a0deae46cafaaaf7063b5d4926c914aded505fdcd2abcd9aa76dcae"
+      sha256 "b0e01af586cce20376c3415794d76c63735b8ba905bb4ed3204d86b83d7a2c0f"
 
       define_method(:install) do
         bin.install "gtr"
@@ -30,14 +30,14 @@ class Gtr < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/hobbymarks/gtr/releases/download/v0.1.3/gtr_0.1.3_linux_amd64.tar.gz"
-      sha256 "739c758aa67717003b4d58a0e8a9280721f84c7d1ec5e3687e0b11e3f71c4a66"
+      sha256 "03e2b170738f9d5fb83a9095e4a7ddd7913df99b793d3b95204b9055e0e89d2a"
       define_method(:install) do
         bin.install "gtr"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/hobbymarks/gtr/releases/download/v0.1.3/gtr_0.1.3_linux_arm64.tar.gz"
-      sha256 "9b85b788b0a5c5baaa7dcc755804d588543db30b2c2e7281ca95d31de382fced"
+      sha256 "4426c9a398164f38ee3ee928acdbe687cc6c1f280f6d3de6f81b74169b409506"
       define_method(:install) do
         bin.install "gtr"
       end
