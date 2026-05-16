@@ -1,0 +1,15 @@
+{
+    "version": "0.1.3",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hobbymarks/gtr/releases/download/v0.1.3/gtr_0.1.3_windows_amd64.zip",
+            "bin": [
+                "gtr.exe"
+            ],
+            "hash": "f02229a4d44450bfcdf3645285d56810c499cba3a332fb56e88d6da870bbdf34"
+        }
+    },
+    "homepage": "https://github.com/hobbymarks/gtr",
+    "license": "MIT",
+    "description": "Multi-engine translation CLI inspired by translate-shell"
+}
