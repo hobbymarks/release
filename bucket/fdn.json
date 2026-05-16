@@ -1,0 +1,22 @@
+{
+    "version": "1.0.4",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hobbymarks/fdn/releases/download/v1.0.4/fdn_Windows_x86_64.zip",
+            "bin": [
+                "fdn.exe"
+            ],
+            "hash": "03d8e4deb356551997f9afbab16ca72bd6d58d91d05f44206284888ae250b058"
+        },
+        "arm64": {
+            "url": "https://github.com/hobbymarks/fdn/releases/download/v1.0.4/fdn_Windows_arm64.zip",
+            "bin": [
+                "fdn.exe"
+            ],
+            "hash": "126a467033624f4ab25547c9e912cef1555fa3d2561369233fc0491af542f4d9"
+        }
+    },
+    "homepage": "https://github.com/hobbymarks/fdn",
+    "license": "MIT",
+    "description": "File and directory name normalizer with rollback"
+}
