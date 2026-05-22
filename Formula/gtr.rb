@@ -5,21 +5,21 @@
 class Gtr < Formula
   desc "Multi-engine translation CLI inspired by translate-shell"
   homepage "https://github.com/hobbymarks/gtr"
-  version "0.2.0"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/hobbymarks/gtr/releases/download/v0.2.0/gtr_0.2.0_darwin_amd64.tar.gz"
-      sha256 "2a15f5344302186021ffb0571789816f579e7ecd0b651cf8a57c22b9058b619c"
+      url "https://github.com/hobbymarks/gtr/releases/download/v0.1.3/gtr_0.1.3_darwin_amd64.tar.gz"
+      sha256 "fab5694b4a0985e805937ca05c16ad9930e244ec4abc2830e80fab1ce1793340"
 
       define_method(:install) do
         bin.install "gtr"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/hobbymarks/gtr/releases/download/v0.2.0/gtr_0.2.0_darwin_arm64.tar.gz"
-      sha256 "a44259d55f50b8d739cbb799d827b517933d761e1dc67bcc4efc92084c63338c"
+      url "https://github.com/hobbymarks/gtr/releases/download/v0.1.3/gtr_0.1.3_darwin_arm64.tar.gz"
+      sha256 "1901960c7104778b67808911d2c5ed973b838c26789e9a292270ee2441ae7523"
 
       define_method(:install) do
         bin.install "gtr"
@@ -29,15 +29,15 @@ class Gtr < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hobbymarks/gtr/releases/download/v0.2.0/gtr_0.2.0_linux_amd64.tar.gz"
-      sha256 "407bd73b301a850bf5dc3c5b0663dea1d62b9e70e426e36623f5140ddec6f6ac"
+      url "https://github.com/hobbymarks/gtr/releases/download/v0.1.3/gtr_0.1.3_linux_amd64.tar.gz"
+      sha256 "a7194e9a02611456d8e5bdd14c6b76be43e599f29b997f9c5c49cfd143be6459"
       define_method(:install) do
         bin.install "gtr"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hobbymarks/gtr/releases/download/v0.2.0/gtr_0.2.0_linux_arm64.tar.gz"
-      sha256 "c756a7be0113fb52ebd1e9854633a8fd058b079e554e90dffc8bc4582463d942"
+      url "https://github.com/hobbymarks/gtr/releases/download/v0.1.3/gtr_0.1.3_linux_arm64.tar.gz"
+      sha256 "284ab6f9d4ef8cb6bdd609b132e78c2accfa50bf44fe27f8e04ce81aa6a99421"
       define_method(:install) do
         bin.install "gtr"
       end
