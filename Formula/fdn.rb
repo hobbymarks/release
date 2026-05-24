@@ -5,21 +5,21 @@
 class Fdn < Formula
   desc "File and directory name normalizer with rollback"
   homepage "https://github.com/hobbymarks/fdn"
-  version "1.0.7"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/hobbymarks/fdn/releases/download/v1.0.7/fdn_Darwin_x86_64.tar.gz"
-      sha256 "b88ebabab74f310582d86284928683df845710c82d1d2dd17b96550e3181a04c"
+      url "https://github.com/hobbymarks/fdn/releases/download/v1.1.0/fdn_Darwin_x86_64.tar.gz"
+      sha256 "611621251338aea5f3228674556ca95a639f0bedd489a525fec9fd70e8df5110"
 
       define_method(:install) do
         bin.install "fdn"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/hobbymarks/fdn/releases/download/v1.0.7/fdn_Darwin_arm64.tar.gz"
-      sha256 "7bd0182b6fb9d1e22df394288805b3fd297d93c08841e379fb6b207af26abb90"
+      url "https://github.com/hobbymarks/fdn/releases/download/v1.1.0/fdn_Darwin_arm64.tar.gz"
+      sha256 "57ef5536a42544f050c55907c67d125e927bc71ae658e0520616d6a951a5f9ac"
 
       define_method(:install) do
         bin.install "fdn"
@@ -29,15 +29,15 @@ class Fdn < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hobbymarks/fdn/releases/download/v1.0.7/fdn_Linux_x86_64.tar.gz"
-      sha256 "f8b5b834a6d6bc2cd56ecda2c972373e6e224ab3365e4d887b8855737d3064a8"
+      url "https://github.com/hobbymarks/fdn/releases/download/v1.1.0/fdn_Linux_x86_64.tar.gz"
+      sha256 "97fbc85211e69835f32d4e1730f891f9a335ce99e48827c86c1c1c2fb2bb0af9"
       define_method(:install) do
         bin.install "fdn"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hobbymarks/fdn/releases/download/v1.0.7/fdn_Linux_arm64.tar.gz"
-      sha256 "3c043fd6bd208c487b282d1f005958d1035f3a596da7897a5243275514bf8ea6"
+      url "https://github.com/hobbymarks/fdn/releases/download/v1.1.0/fdn_Linux_arm64.tar.gz"
+      sha256 "3c52d6aa0069c843404966099bc281cf10291476a026a2881734074d67b2a6f8"
       define_method(:install) do
         bin.install "fdn"
       end
