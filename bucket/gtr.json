@@ -1,12 +1,12 @@
 {
-    "version": "0.2.4",
+    "version": "0.2.5",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hobbymarks/gtr/releases/download/v0.2.4/gtr_0.2.4_windows_amd64.zip",
+            "url": "https://github.com/hobbymarks/gtr/releases/download/v0.2.5/gtr_0.2.5_windows_amd64.zip",
             "bin": [
                 "gtr.exe"
             ],
-            "hash": "54d8458df94a0434985298f4c8d3808b377968dbc646d63369baabbde52c9984"
+            "hash": "fb0f81ac66122dcaf5275e222a358b3037c9e063b0dde0888142bb28a6e2e2bd"
         }
     },
     "homepage": "https://github.com/hobbymarks/gtr",
